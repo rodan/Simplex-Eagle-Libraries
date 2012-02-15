@@ -144,6 +144,41 @@
 <rectangle x1="-3.42" y1="3.8" x2="-2.93" y2="5.32" layer="51"/>
 <rectangle x1="-4.69" y1="3.8" x2="-4.2" y2="5.32" layer="51"/>
 </package>
+<package name="TSOP312X">
+<description>horizontal setup</description>
+<wire x1="-1.27" y1="3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="6.35" y2="3.81" width="0.127" layer="21"/>
+<wire x1="6.35" y1="3.81" x2="8.89" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="16.31" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="16.31" x2="8.89" y2="16.31" width="0.127" layer="21"/>
+<wire x1="8.89" y1="16.31" x2="8.89" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="12.7" width="0.127" layer="21"/>
+<wire x1="6.35" y1="3.81" x2="6.35" y2="12.7" width="0.127" layer="21"/>
+<wire x1="1.27" y1="12.7" x2="6.35" y2="12.7" width="0.127" layer="21" curve="-180"/>
+<wire x1="-1.27" y1="16.51" x2="-1.27" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-1.27" y1="-1.27" x2="8.89" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="8.89" y1="-1.27" x2="8.89" y2="16.51" width="0.127" layer="39"/>
+<wire x1="8.89" y1="16.51" x2="-1.27" y2="16.51" width="0.127" layer="39"/>
+<pad name="1" x="0" y="0" drill="0.8"/>
+<pad name="2" x="2.54" y="0" drill="0.8"/>
+<pad name="3" x="7.62" y="0" drill="0.8"/>
+<text x="0" y="1.27" size="1.27" layer="25">&gt; Name</text>
+<text x="0" y="5.08" size="1.27" layer="27">&gt; value</text>
+</package>
+<package name="TSOP312X_VERT">
+<description>vertical setup</description>
+<pad name="1" x="-3.81" y="0" drill="0.8"/>
+<pad name="2" x="-1.27" y="0" drill="0.8"/>
+<pad name="3" x="3.81" y="0" drill="0.8"/>
+<text x="-3.81" y="1.27" size="1.27" layer="25">&gt; Name</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="27">&gt; Value</text>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="39" curve="-180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DS3231">
@@ -169,6 +204,15 @@
 <pin name="NC@1" x="-15.24" y="-2.54" length="middle"/>
 <pin name="NC@2" x="-15.24" y="-5.08" length="middle"/>
 <pin name="NC@3" x="-15.24" y="-7.62" length="middle"/>
+</symbol>
+<symbol name="TSOP312X">
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<pin name="GND" x="10.16" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="VS" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT" x="10.16" y="0" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -196,6 +240,34 @@
 <connect gate="G$1" pin="SDA" pad="15"/>
 <connect gate="G$1" pin="VBAT" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSOP312X">
+<description>TSOP ir receiver module for remote control systems</description>
+<gates>
+<gate name="G$1" symbol="TSOP312X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="HORIZONTAL" package="TSOP312X">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VERTICAL" package="TSOP312X_VERT">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VS" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
