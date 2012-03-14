@@ -101,6 +101,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
+<description>finest footprints by petre rodan</description>
 <packages>
 <package name="CRYSTAL-SMD-5X3.2">
 <description>smd, 5x3.2 pads, 2 pins</description>
