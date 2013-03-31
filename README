@@ -2,6 +2,31 @@ finest footprints for exotic devices. compatible with Eagle v6.0 or greater.
 
 distributed under the GPLv3 license. provided as-is without any warranty. 
 
+contains footprints for the following devices:
+
+Simplex-Connectors
+    - Lumberg KLBR4
+
+Simplex-DiscreteSemi
+    - MOSFET-P channel - power (vishay little foot sot23) and normal footprint
+
+Simplex-FreqCtrl
+    - 5x3.2mm crystal
+    - 3.2x1.5mm crystal
+
+Simplex-ICs
+    - DS3231
+    - Vishay TSOP312x (vertical and horizontal)
+    - Linear LTC2991
+
+Simplex-Jumpers
+    - 4 way solder jumper
+
+Simplex-rlc
+    - 0805 inductor
+    - yageo YC164 series resistor array
+
+
 author: Petre Rodan <petre.rodan@simplex.ro>
 url:    https://github.com/rodan/Simplex-Eagle-Libraries
 
