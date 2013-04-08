@@ -4,6 +4,9 @@ distributed under the GPLv3 license. provided as-is without any warranty.
 
 contains footprints for the following devices:
 
+Simplex-Battery
+    - Renata HU2032-LF Li 2032 battery holder
+
 Simplex-Connectors
     - Lumberg KLBR4
 
@@ -18,6 +21,7 @@ Simplex-ICs
     - DS3231
     - Vishay TSOP312x (vertical and horizontal)
     - Linear LTC2991
+    - Texas Instruments TPS3613
 
 Simplex-Jumpers
     - 4 way solder jumper
