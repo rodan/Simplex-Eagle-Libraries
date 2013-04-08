@@ -30,6 +30,8 @@ Simplex-rlc
     - 0805 inductor
     - yageo YC164 series resistor array
 
+Simplex-Switches
+    - 6x3.5mm tactile SPST-NO switch
 
 author: Petre Rodan <petre.rodan@simplex.ro>
 url:    https://github.com/rodan/Simplex-Eagle-Libraries
