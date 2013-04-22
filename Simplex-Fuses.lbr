@@ -344,12 +344,7 @@ Power Center 8 fuse box made by Eastern Beaver Company</description>
 <connect gate="G$1" pin="PWR" pad="PWR"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SMKDSN1,5/8-5,08" constant="no"/>
-<attribute name="OC_FARNELL" value="1792911" constant="no"/>
-<attribute name="OC_NEWARK" value="70R0304" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
