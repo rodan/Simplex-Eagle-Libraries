@@ -17,6 +17,9 @@ Simplex-FreqCtrl
     - 5x3.2mm crystal
     - 3.2x1.5mm crystal
 
+Simplex-Fuses
+    - Eastern Beaver Power Center 8
+
 Simplex-ICs
     - DS3231
     - Vishay TSOP312x (vertical and horizontal)
