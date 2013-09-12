@@ -32,6 +32,7 @@ Simplex-Jumpers
 Simplex-rlc
     - 0805 inductor
     - yageo YC164 series resistor array
+    - TO220 vertical and horizontal resistor
 
 Simplex-Switches
     - 6x3.5mm tactile SPST-NO switch

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -59,9 +59,9 @@
 <packages>
 <package name="HU2032-LF">
 <description>&lt;b&gt;Renata HU2032-LF&lt;/b&gt; Li 2032 battery holder</description>
-<pad name="+@1" x="-13.6" y="1.27" drill="0.9" diameter="2.54" shape="octagon" rot="R270"/>
-<pad name="+" x="-13.6" y="-1.27" drill="0.9" diameter="2.54" shape="octagon" rot="R270"/>
-<pad name="-" x="13.6" y="0" drill="0.9" diameter="2.54" shape="octagon" rot="R270"/>
+<pad name="+@1" x="-13.6" y="1.27" drill="0.9" diameter="2.1844" shape="octagon" rot="R270"/>
+<pad name="+" x="-13.6" y="-1.27" drill="0.9" diameter="2.1844" shape="octagon" rot="R270"/>
+<pad name="-" x="13.6" y="0" drill="0.9" diameter="2.1844" shape="octagon" rot="R270"/>
 <text x="-3.54" y="-0.37" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.505" y="-2.98" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-14.25" y1="3.5" x2="-11.5" y2="3.5" width="0.127" layer="21"/>
