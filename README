@@ -25,6 +25,7 @@ Simplex-ICs
     - Vishay TSOP312x (vertical and horizontal)
     - Linear LTC2991
     - Texas Instruments TPS3613
+    - GlobalTop FGPMMOPA6H
 
 Simplex-Jumpers
     - 4 way solder jumper
