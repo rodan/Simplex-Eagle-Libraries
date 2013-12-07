@@ -26,6 +26,7 @@ Simplex-ICs
     - Vishay TSOP312x (vertical and horizontal)
     - Linear LTC2991
     - Texas Instruments TPS3613
+    - Texas Instruments BQ24072
     - GlobalTop FGPMMOPA6H
 
 Simplex-Jumpers
