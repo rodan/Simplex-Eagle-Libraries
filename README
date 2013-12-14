@@ -10,10 +10,16 @@ Simplex-Battery
 Simplex-Connectors
     - Lumberg KLBR4
     - Amphenol SIMLOCK "C707 10M006 000 2"
-    - Molex 20530480210
+    - Molex 0530470210
+    - Molex 0530480210
+    - Molex 0530470410
+    - Molex 0530480410
+    - Molex 0530470610
+    - Molex 0530480610
 
 Simplex-DiscreteSemi
     - MOSFET-P channel - power (vishay little foot sot23) and normal footprint
+    - SMF05C
 
 Simplex-FreqCtrl
     - 5x3.2mm crystal
