@@ -35,6 +35,7 @@ Simplex-ICs
     - Texas Instruments TPS3613
     - Texas Instruments BQ24072
     - GlobalTop FGPMMOPA6H
+    - sim900
 
 Simplex-Jumpers
     - 4 way solder jumper
