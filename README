@@ -34,6 +34,7 @@ Simplex-ICs
     - Linear LTC2991
     - Texas Instruments TPS3613
     - Texas Instruments BQ24072
+    - Texas Instruments ADS1110
     - GlobalTop FGPMMOPA6H
     - sim900
 
