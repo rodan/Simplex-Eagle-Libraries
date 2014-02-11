@@ -147,24 +147,8 @@
 <smd name="8" x="4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="15" x="-3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="16" x="-4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-4.445" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.69" y1="-5.32" x2="-4.2" y2="-3.8" layer="51"/>
-<rectangle x1="-3.42" y1="-5.32" x2="-2.93" y2="-3.8" layer="51"/>
-<rectangle x1="-2.15" y1="-5.32" x2="-1.66" y2="-3.8" layer="51"/>
-<rectangle x1="-0.88" y1="-5.32" x2="-0.39" y2="-3.8" layer="51"/>
-<rectangle x1="0.39" y1="-5.32" x2="0.88" y2="-3.8" layer="51"/>
-<rectangle x1="1.66" y1="-5.32" x2="2.15" y2="-3.8" layer="51"/>
-<rectangle x1="2.93" y1="-5.32" x2="3.42" y2="-3.8" layer="51"/>
-<rectangle x1="4.2" y1="-5.32" x2="4.69" y2="-3.8" layer="51"/>
-<rectangle x1="4.2" y1="3.8" x2="4.69" y2="5.32" layer="51"/>
-<rectangle x1="2.93" y1="3.8" x2="3.42" y2="5.32" layer="51"/>
-<rectangle x1="1.66" y1="3.8" x2="2.15" y2="5.32" layer="51"/>
-<rectangle x1="0.39" y1="3.8" x2="0.88" y2="5.32" layer="51"/>
-<rectangle x1="-0.88" y1="3.8" x2="-0.39" y2="5.32" layer="51"/>
-<rectangle x1="-2.15" y1="3.8" x2="-1.66" y2="5.32" layer="51"/>
-<rectangle x1="-3.42" y1="3.8" x2="-2.93" y2="5.32" layer="51"/>
-<rectangle x1="-4.69" y1="3.8" x2="-4.2" y2="5.32" layer="51"/>
+<text x="6.315" y="0.02" size="1.27" layer="25">&gt;NAME</text>
+<text x="6.3" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="TSOP312X">
 <description>horizontal setup</description>
@@ -470,6 +454,33 @@ changed 2011-11-09</description>
 <wire x1="2.475" y1="0.475" x2="2.475" y2="2.225" width="0.127" layer="21"/>
 <circle x="-0.85" y="0.6" radius="0.070709375" width="0.127" layer="21"/>
 </package>
+<package name="DIL16">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="10.16" y1="2.921" x2="-10.16" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="2.921" x2="10.16" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="2.921" x2="-10.16" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-2.921" x2="-10.16" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="1.016" x2="-10.16" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-10.541" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-7.493" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DS3231">
@@ -682,6 +693,30 @@ changed 2011-11-09</description>
 <wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <text x="-5.08" y="-10.16" size="1.27" layer="96">&gt;value</text>
 <text x="-5.08" y="12.7" size="1.27" layer="95">&gt;name</text>
+</symbol>
+<symbol name="PGA2311">
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="22.86" x2="15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<text x="-5.08" y="-35.56" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="ZCEN" x="-20.32" y="15.24" length="middle" direction="in"/>
+<pin name="VINL" x="20.32" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="VINR" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SDI" x="-20.32" y="0" length="middle" direction="in"/>
+<pin name="SCLK" x="-20.32" y="-2.54" length="middle" direction="in"/>
+<pin name="SDO" x="-20.32" y="-7.62" length="middle" direction="out"/>
+<pin name="DGND" x="-5.08" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="AGNDL" x="20.32" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="AGNDR" x="20.32" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="VA-" x="5.08" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="VA+" x="5.08" y="27.94" length="middle" direction="pwr" rot="R270"/>
+<pin name="VD+" x="-5.08" y="27.94" length="middle" direction="pwr" rot="R270"/>
+<pin name="VOUTL" x="20.32" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="VOUTR" x="20.32" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="CS" x="-20.32" y="2.54" length="middle" direction="in" function="dot"/>
+<pin name="MUTE" x="-20.32" y="-12.7" length="middle" direction="in" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -980,6 +1015,60 @@ changed 2011-11-09</description>
 <connect gate="G$1" pin="VDD" pad="5"/>
 <connect gate="G$1" pin="VIN+" pad="1"/>
 <connect gate="G$1" pin="VIN-" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PGA2311" prefix="IC">
+<description>&lt;b&gt;TI PGA2133&lt;/b&gt; stereo audio volume control</description>
+<gates>
+<gate name="PGA2311" symbol="PGA2311" x="-30.48" y="-30.48"/>
+</gates>
+<devices>
+<device name="P" package="DIL16">
+<connects>
+<connect gate="PGA2311" pin="AGNDL" pad="15"/>
+<connect gate="PGA2311" pin="AGNDR" pad="10"/>
+<connect gate="PGA2311" pin="CS" pad="2"/>
+<connect gate="PGA2311" pin="DGND" pad="5"/>
+<connect gate="PGA2311" pin="MUTE" pad="8"/>
+<connect gate="PGA2311" pin="SCLK" pad="6"/>
+<connect gate="PGA2311" pin="SDI" pad="3"/>
+<connect gate="PGA2311" pin="SDO" pad="7"/>
+<connect gate="PGA2311" pin="VA+" pad="12"/>
+<connect gate="PGA2311" pin="VA-" pad="13"/>
+<connect gate="PGA2311" pin="VD+" pad="4"/>
+<connect gate="PGA2311" pin="VINL" pad="16"/>
+<connect gate="PGA2311" pin="VINR" pad="9"/>
+<connect gate="PGA2311" pin="VOUTL" pad="14"/>
+<connect gate="PGA2311" pin="VOUTR" pad="11"/>
+<connect gate="PGA2311" pin="ZCEN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SO-16">
+<connects>
+<connect gate="PGA2311" pin="AGNDL" pad="15"/>
+<connect gate="PGA2311" pin="AGNDR" pad="10"/>
+<connect gate="PGA2311" pin="CS" pad="2"/>
+<connect gate="PGA2311" pin="DGND" pad="5"/>
+<connect gate="PGA2311" pin="MUTE" pad="8"/>
+<connect gate="PGA2311" pin="SCLK" pad="6"/>
+<connect gate="PGA2311" pin="SDI" pad="3"/>
+<connect gate="PGA2311" pin="SDO" pad="7"/>
+<connect gate="PGA2311" pin="VA+" pad="12"/>
+<connect gate="PGA2311" pin="VA-" pad="13"/>
+<connect gate="PGA2311" pin="VD+" pad="4"/>
+<connect gate="PGA2311" pin="VINL" pad="16"/>
+<connect gate="PGA2311" pin="VINR" pad="9"/>
+<connect gate="PGA2311" pin="VOUTL" pad="14"/>
+<connect gate="PGA2311" pin="VOUTR" pad="11"/>
+<connect gate="PGA2311" pin="ZCEN" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -18,7 +18,8 @@ Simplex-Connectors
     - Molex 0530480610
 
 Simplex-DiscreteSemi
-    - MOSFET-P channel - power (vishay little foot sot23) and normal footprint
+    - MOSFET-P channel - sot23-3, sot23-3 power, d-pak
+    - MOSFET-N channel - sot23-3, sot23-3 power, d-pak
     - SMF05C
 
 Simplex-FreqCtrl
@@ -35,6 +36,7 @@ Simplex-ICs
     - Texas Instruments TPS3613
     - Texas Instruments BQ24072
     - Texas Instruments ADS1110
+    - Texas Instruments PGA2311
     - GlobalTop FGPMMOPA6H
     - sim900
 
