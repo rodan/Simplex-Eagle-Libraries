@@ -42,6 +42,7 @@ Simplex-ICs
     - GlobalTop FGPMMOPA6H
     - sim900
     - STK461, STK463, STK465
+    - linear regulators in a D2PAK package
 
 Simplex-Jumpers
     - 4 way solder jumper
