@@ -405,6 +405,59 @@ Source: 3M</description>
 <vertex x="-5.085" y="8.37"/>
 </polygon>
 </package>
+<package name="DEGSON_2">
+<description>&lt;b&gt;DG58C-B-02P-13&lt;/b&gt; Degson Electronics 2 pole screw terminal&lt;p&gt;
+10mm grid</description>
+<pad name="1" x="-5" y="0" drill="1.8" shape="octagon"/>
+<pad name="2" x="5" y="0" drill="1.8"/>
+<wire x1="-12" y1="6" x2="12" y2="6" width="0.127" layer="21"/>
+<wire x1="12" y1="6" x2="12" y2="-6" width="0.127" layer="21"/>
+<wire x1="12" y1="-6" x2="-12" y2="-6" width="0.127" layer="21"/>
+<wire x1="-12" y1="-6" x2="-12" y2="6" width="0.127" layer="21"/>
+<text x="-11.9" y="7.7" size="1.27" layer="25">&gt;name</text>
+</package>
+<package name="DEGSON_4">
+<description>&lt;b&gt;DG58C-B-04P-13&lt;/b&gt; Degson Electronics 4 pole screw terminal&lt;p&gt;
+10mm grid</description>
+<pad name="1" x="-15" y="0" drill="1.8" shape="octagon"/>
+<pad name="3" x="5" y="0" drill="1.8"/>
+<wire x1="-22" y1="6" x2="22" y2="6" width="0.127" layer="21"/>
+<wire x1="22" y1="6" x2="22" y2="-6" width="0.127" layer="21"/>
+<wire x1="22" y1="-6" x2="-22" y2="-6" width="0.127" layer="21"/>
+<wire x1="-22" y1="-6" x2="-22" y2="6" width="0.127" layer="21"/>
+<text x="-20.4" y="7.3" size="1.27" layer="25">&gt;name</text>
+<pad name="4" x="15" y="0" drill="1.8"/>
+<pad name="2" x="-5" y="0" drill="1.8"/>
+</package>
+<package name="DEGSON_3">
+<description>&lt;b&gt;DG58C-B-03P-13&lt;/b&gt; Degson Electronics 3 pole screw terminal&lt;p&gt;
+10mm grid</description>
+<pad name="1" x="-10" y="0" drill="1.8" shape="octagon"/>
+<pad name="2" x="0" y="0" drill="1.8"/>
+<wire x1="-17" y1="6" x2="17" y2="6" width="0.127" layer="21"/>
+<wire x1="17" y1="6" x2="17" y2="-6" width="0.127" layer="21"/>
+<wire x1="17" y1="-6" x2="-17" y2="-6" width="0.127" layer="21"/>
+<wire x1="-17" y1="-6" x2="-17" y2="6" width="0.127" layer="21"/>
+<text x="-16.9" y="7.73" size="1.27" layer="25">&gt;name</text>
+<pad name="3" x="10" y="0" drill="1.8"/>
+</package>
+<package name="DEGSON_8">
+<description>&lt;b&gt;DG58C-B-08P-13&lt;/b&gt; Degson Electronics 8 pole screw terminal&lt;p&gt;
+10mm grid</description>
+<pad name="1" x="-35" y="0" drill="1.8" shape="octagon"/>
+<pad name="3" x="-15" y="0" drill="1.8"/>
+<wire x1="-42" y1="6" x2="42" y2="6" width="0.127" layer="21"/>
+<wire x1="42" y1="6" x2="42" y2="-6" width="0.127" layer="21"/>
+<wire x1="42" y1="-6" x2="-42" y2="-6" width="0.127" layer="21"/>
+<wire x1="-42" y1="-6" x2="-42" y2="6" width="0.127" layer="21"/>
+<text x="-40.4" y="7.3" size="1.27" layer="25">&gt;name</text>
+<pad name="4" x="-5" y="0" drill="1.8"/>
+<pad name="2" x="-25" y="0" drill="1.8"/>
+<pad name="5" x="5" y="0" drill="1.8"/>
+<pad name="6" x="15" y="0" drill="1.8"/>
+<pad name="7" x="25" y="0" drill="1.8"/>
+<pad name="8" x="35" y="0" drill="1.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="KLBR4">
@@ -762,6 +815,100 @@ Source: 3M</description>
 <attribute name="OC_FARNELL" value="1788669" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DEGSON_2" prefix="X">
+<description>&lt;b&gt;DG58C-B-02P-13&lt;/b&gt; Degson Electronics 2 pole screw terminal&lt;p&gt;
+10mm grid</description>
+<gates>
+<gate name="G$1" symbol="PIN" x="0" y="2.54"/>
+<gate name="G$2" symbol="PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DEGSON_2">
+<connects>
+<connect gate="G$1" pin="KL" pad="1"/>
+<connect gate="G$2" pin="KL" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DEGSON_4" prefix="X">
+<description>&lt;b&gt;DG58C-B-04P-13&lt;/b&gt; Degson Electronics 4 pole screw terminal&lt;p&gt;
+10mm grid</description>
+<gates>
+<gate name="G$1" symbol="PIN" x="0" y="5.08"/>
+<gate name="G$2" symbol="PIN" x="0" y="0"/>
+<gate name="G$3" symbol="PIN" x="0" y="-5.08"/>
+<gate name="G$4" symbol="PIN" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="DEGSON_4">
+<connects>
+<connect gate="G$1" pin="KL" pad="1"/>
+<connect gate="G$2" pin="KL" pad="2"/>
+<connect gate="G$3" pin="KL" pad="3"/>
+<connect gate="G$4" pin="KL" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DEGSON_3" prefix="X">
+<description>&lt;b&gt;DG58C-B-03P-13&lt;/b&gt; Degson Electronics 3 pole screw terminal&lt;p&gt;
+10mm grid</description>
+<gates>
+<gate name="G$1" symbol="PIN" x="0" y="5.08"/>
+<gate name="G$2" symbol="PIN" x="0" y="0"/>
+<gate name="G$3" symbol="PIN" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="DEGSON_3">
+<connects>
+<connect gate="G$1" pin="KL" pad="1"/>
+<connect gate="G$2" pin="KL" pad="2"/>
+<connect gate="G$3" pin="KL" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DEGSON_8">
+<description>&lt;b&gt;DG58C-B-08P-13&lt;/b&gt; Degson Electronics 8 pole screw terminal&lt;p&gt;
+10mm grid</description>
+<gates>
+<gate name="G$1" symbol="PIN" x="0" y="22.86"/>
+<gate name="G$2" symbol="PIN" x="0" y="17.78"/>
+<gate name="G$3" symbol="PIN" x="0" y="12.7"/>
+<gate name="G$4" symbol="PIN" x="0" y="7.62"/>
+<gate name="G$5" symbol="PIN" x="0" y="2.54"/>
+<gate name="G$6" symbol="PIN" x="0" y="-2.54"/>
+<gate name="G$7" symbol="PIN" x="0" y="-7.62"/>
+<gate name="G$8" symbol="PIN" x="0" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="DEGSON_8">
+<connects>
+<connect gate="G$1" pin="KL" pad="1"/>
+<connect gate="G$2" pin="KL" pad="2"/>
+<connect gate="G$3" pin="KL" pad="3"/>
+<connect gate="G$4" pin="KL" pad="4"/>
+<connect gate="G$5" pin="KL" pad="5"/>
+<connect gate="G$6" pin="KL" pad="6"/>
+<connect gate="G$7" pin="KL" pad="7"/>
+<connect gate="G$8" pin="KL" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

@@ -18,6 +18,10 @@ Simplex-Connectors
     - Molex 0530480610
     - 2x4pin 3M IDC connector
     - 2x6pin 3M IDC connector
+    - DG58C-B-02P-13 2 pole Degson Electronics screw terminal
+    - DG58C-B-03P-13 3 pole Degson Electronics screw terminal
+    - DG58C-B-04P-13 4 pole Degson Electronics screw terminal
+    - DG58C-B-08P-13 8 pole Degson Electronics screw terminal
 
 Simplex-DiscreteSemi
     - MOSFET-P channel - sot23-3, sot23-3 power, d-pak
