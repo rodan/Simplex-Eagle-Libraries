@@ -882,7 +882,7 @@ Source: 3M</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DEGSON_8">
+<deviceset name="DEGSON_8" prefix="X">
 <description>&lt;b&gt;DG58C-B-08P-13&lt;/b&gt; Degson Electronics 8 pole screw terminal&lt;p&gt;
 10mm grid</description>
 <gates>
