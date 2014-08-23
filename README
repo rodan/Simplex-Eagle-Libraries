@@ -33,6 +33,8 @@ Simplex-FreqCtrl
     - 3.2x1.5mm crystal
 
 Simplex-Fuses
+    - 0805 resettable fuse
+    - 1210 resettable fuse
     - Eastern Beaver Power Center 8
 
 Simplex-ICs
@@ -47,6 +49,7 @@ Simplex-ICs
     - sim900
     - STK461, STK463, STK465
     - linear regulators in a D2PAK package
+    - Cypress FM24Vxx serial F-RAM
 
 Simplex-Jumpers
     - 4 way solder jumper
