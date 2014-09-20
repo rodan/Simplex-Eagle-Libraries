@@ -9,13 +9,14 @@ Simplex-Battery
 
 Simplex-Connectors
     - Lumberg KLBR4
-    - Amphenol SIMLOCK "C707 10M006 000 2"
     - Molex 0530470210
     - Molex 0530480210
     - Molex 0530470410
     - Molex 0530480410
     - Molex 0530470610
     - Molex 0530480610
+    - Molex 78800001 mini SIM
+    - Amphenol SIMLOCK "C707 10M006 000 2"
     - 2x4pin 3M IDC connector
     - 2x6pin 3M IDC connector
     - DG58C-B-02P-13 2 pole Degson Electronics screw terminal
@@ -50,6 +51,7 @@ Simplex-ICs
     - STK461, STK463, STK465
     - linear regulators in a D2PAK package
     - Cypress FM24Vxx serial F-RAM
+    - LM2674
 
 Simplex-Jumpers
     - 4 way solder jumper

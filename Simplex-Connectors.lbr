@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -145,109 +145,109 @@ Source: http://www.lumberg.com/Produkte/PDFs/KLBR4.pdf</description>
 </package>
 <package name="0530480210">
 <description>MOLEX &lt;b&gt;0530480210&lt;/b&gt;</description>
-<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<pad name="2" x="1.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<wire x1="2.75" y1="4.5" x2="2.75" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4.5" x2="-1.5" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4.5" x2="2.75" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1" x2="-0.625" y2="-1" width="0.127" layer="21"/>
-<wire x1="1.875" y1="-1" x2="2.75" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.625" y1="-1" x2="-0.625" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="1.875" y1="-1" x2="1.875" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="-0.625" y1="-0.1" x2="1.875" y2="-0.1" width="0.127" layer="21"/>
+<pad name="2" x="1.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
+<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270" first="yes"/>
+<wire x1="-1.5" y1="-4.5" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="2.75" y1="-4.5" x2="2.75" y2="1" width="0.127" layer="21"/>
+<wire x1="2.75" y1="-4.5" x2="-1.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="2.75" y1="1" x2="1.875" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.625" y1="1" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="1.875" y1="1" x2="1.875" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-0.625" y1="1" x2="-0.625" y2="0.1" width="0.127" layer="21"/>
+<wire x1="1.875" y1="0.1" x2="-0.625" y2="0.1" width="0.127" layer="21"/>
 <wire x1="-0.25" y1="1.8" x2="0" y2="1.15" width="0.127" layer="21"/>
 <wire x1="0" y1="1.15" x2="0.25" y2="1.8" width="0.127" layer="21"/>
 <wire x1="-0.25" y1="1.8" x2="0.25" y2="1.8" width="0.127" layer="21"/>
-<text x="-1.27" y="-2.54" size="1.27" layer="25">&gt;names</text>
-<text x="-1.27" y="6.35" size="1.27" layer="27">&gt;value</text>
+<text x="-0.02" y="2.46" size="1.27" layer="25">&gt;names</text>
+<text x="-1.27" y="-6.15" size="1.27" layer="27">&gt;value</text>
 </package>
 <package name="0530480401">
 <description>MOLEX &lt;b&gt;0530480410&lt;/b&gt;</description>
-<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<pad name="2" x="1.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<wire x1="5.25" y1="4.5" x2="5.25" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4.5" x2="-1.5" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4.5" x2="5.25" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1" x2="-0.625" y2="-1" width="0.127" layer="21"/>
-<wire x1="4.375" y1="-1" x2="5.25" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.625" y1="-1" x2="-0.625" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="4.375" y1="-1" x2="4.375" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="-0.625" y1="-0.1" x2="4.375" y2="-0.1" width="0.127" layer="21"/>
+<pad name="4" x="3.75" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
+<pad name="3" x="2.5" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
+<wire x1="-1.5" y1="-4.5" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="5.25" y1="-4.5" x2="5.25" y2="1" width="0.127" layer="21"/>
+<wire x1="5.25" y1="-4.5" x2="-1.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="5.25" y1="1" x2="4.375" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.625" y1="1" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="4.375" y1="1" x2="4.375" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-0.625" y1="1" x2="-0.625" y2="0.1" width="0.127" layer="21"/>
+<wire x1="4.375" y1="0.1" x2="-0.625" y2="0.1" width="0.127" layer="21"/>
 <wire x1="-0.25" y1="1.8" x2="0" y2="1.15" width="0.127" layer="21"/>
 <wire x1="0" y1="1.15" x2="0.25" y2="1.8" width="0.127" layer="21"/>
 <wire x1="-0.25" y1="1.8" x2="0.25" y2="1.8" width="0.127" layer="21"/>
-<pad name="4" x="3.75" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<pad name="3" x="2.5" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<text x="0" y="-2.54" size="1.27" layer="27">&gt;value</text>
-<text x="0" y="5.08" size="1.27" layer="26">&gt;name</text>
+<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270" first="yes"/>
+<pad name="2" x="1.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
+<text x="0" y="-6.29" size="1.27" layer="27">&gt;value</text>
+<text x="1.25" y="2.5" size="1.27" layer="25">&gt;name</text>
 </package>
 <package name="0530480610">
 <description>MOLEX &lt;b&gt;0530480610&lt;/b&gt;</description>
-<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<pad name="2" x="1.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<wire x1="7.75" y1="4.5" x2="7.75" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4.5" x2="-1.5" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="4.5" x2="7.75" y2="4.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1" x2="-0.625" y2="-1" width="0.127" layer="21"/>
-<wire x1="6.875" y1="-1" x2="7.75" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.625" y1="-1" x2="-0.625" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="6.875" y1="-1" x2="6.875" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="-0.625" y1="-0.1" x2="6.875" y2="-0.1" width="0.127" layer="21"/>
+<pad name="6" x="6.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
+<pad name="5" x="5" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
+<wire x1="-1.5" y1="-4.5" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="7.75" y1="-4.5" x2="7.75" y2="1" width="0.127" layer="21"/>
+<wire x1="7.75" y1="-4.5" x2="-1.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="7.75" y1="1" x2="6.875" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.625" y1="1" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="6.875" y1="1" x2="6.875" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-0.625" y1="1" x2="-0.625" y2="0.1" width="0.127" layer="21"/>
+<wire x1="6.875" y1="0.1" x2="-0.625" y2="0.1" width="0.127" layer="21"/>
 <wire x1="-0.25" y1="1.8" x2="0" y2="1.15" width="0.127" layer="21"/>
 <wire x1="0" y1="1.15" x2="0.25" y2="1.8" width="0.127" layer="21"/>
 <wire x1="-0.25" y1="1.8" x2="0.25" y2="1.8" width="0.127" layer="21"/>
-<pad name="4" x="3.75" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<pad name="3" x="2.5" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<text x="0" y="-2.54" size="1.27" layer="27">&gt;value</text>
-<text x="0" y="5.08" size="1.27" layer="26">&gt;name</text>
-<pad name="6" x="6.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<pad name="5" x="5" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
+<pad name="3" x="2.5" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
+<pad name="4" x="3.75" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
+<text x="0" y="-6.29" size="1.27" layer="27">&gt;value</text>
+<text x="0" y="2.58" size="1.27" layer="26">&gt;name</text>
+<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270" first="yes"/>
+<pad name="2" x="1.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R270"/>
 </package>
 <package name="0530470610">
 <description>Molex &lt;b&gt;0530470610&lt;/b&gt;</description>
 <pad name="1" x="0" y="0" drill="0.6" diameter="0.8128" shape="long" rot="R90"/>
 <pad name="2" x="1.25" y="0" drill="0.6" diameter="0.8128" shape="long" rot="R90"/>
-<wire x1="7.75" y1="1.2" x2="7.75" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.2" x2="7.75" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-2" x2="7.75" y2="-2" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="2.15" x2="0" y2="1.5" width="0.127" layer="21"/>
-<wire x1="0" y1="1.5" x2="0.25" y2="2.15" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="2.15" x2="0.25" y2="2.15" width="0.127" layer="21"/>
+<wire x1="7.75" y1="2" x2="7.75" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="-1.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="7.75" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.2" x2="7.75" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="3.04" x2="0" y2="2.39" width="0.127" layer="21"/>
+<wire x1="0" y1="2.39" x2="0.25" y2="3.04" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="3.04" x2="0.25" y2="3.04" width="0.127" layer="21"/>
 <pad name="4" x="3.75" y="0" drill="0.6" diameter="0.8128" shape="long" rot="R90"/>
 <pad name="3" x="2.5" y="0" drill="0.6" diameter="0.8128" shape="long" rot="R90"/>
-<text x="0.85" y="1.66" size="1.27" layer="27">&gt;value</text>
+<text x="0.85" y="2.55" size="1.27" layer="27">&gt;value</text>
 <text x="0.9" y="-1.52" size="1.27" layer="26">&gt;name</text>
 <pad name="6" x="6.25" y="0" drill="0.6" diameter="0.8128" shape="long" rot="R90"/>
 <pad name="5" x="5" y="0" drill="0.6" diameter="0.8128" shape="long" rot="R90"/>
 </package>
 <package name="0530470210">
 <description>Molex &lt;b&gt;0530470210&lt;/b&gt;</description>
-<wire x1="2.75" y1="1.2" x2="2.75" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.2" x2="2.75" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-2" x2="2.75" y2="-2" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="2.15" x2="0" y2="1.5" width="0.127" layer="21"/>
-<wire x1="0" y1="1.5" x2="0.25" y2="2.15" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="2.15" x2="0.25" y2="2.15" width="0.127" layer="21"/>
-<text x="0.75" y="1.56" size="1.27" layer="27">&gt;value</text>
-<text x="0.2" y="-1.52" size="1.27" layer="26">&gt;name</text>
+<wire x1="2.75" y1="2" x2="2.75" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="-1.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="2.75" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.2" x2="2.75" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="3.4" x2="0" y2="2.75" width="0.127" layer="21"/>
+<wire x1="0" y1="2.75" x2="0.25" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="3.4" x2="0.25" y2="3.4" width="0.127" layer="21"/>
+<text x="0.75" y="2.81" size="1.27" layer="27">&gt;value</text>
+<text x="-1.05" y="-1.52" size="1.27" layer="26">&gt;name</text>
 <pad name="2" x="1.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
+<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90" first="yes"/>
 </package>
 <package name="0530470410">
 <description>Molex &lt;b&gt;0530470410&lt;/b&gt;</description>
-<wire x1="5.25" y1="1.2" x2="5.25" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.2" x2="5.25" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-2" x2="5.25" y2="-2" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="2.15" x2="0" y2="1.5" width="0.127" layer="21"/>
-<wire x1="0" y1="1.5" x2="0.25" y2="2.15" width="0.127" layer="21"/>
-<wire x1="-0.25" y1="2.15" x2="0.25" y2="2.15" width="0.127" layer="21"/>
+<wire x1="5.25" y1="2" x2="5.25" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="-1.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="2" x2="5.25" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.2" x2="5.25" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="3.4" x2="0" y2="2.75" width="0.127" layer="21"/>
+<wire x1="0" y1="2.75" x2="0.25" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-0.25" y1="3.4" x2="0.25" y2="3.4" width="0.127" layer="21"/>
 <pad name="2" x="1.25" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
-<text x="0.65" y="1.81" size="1.27" layer="27">&gt;value</text>
-<text x="0.6" y="-1.17" size="1.27" layer="26">&gt;name</text>
+<pad name="1" x="0" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90" first="yes"/>
+<text x="0.65" y="3.06" size="1.27" layer="27">&gt;value</text>
+<text x="0.6" y="-2.42" size="1.27" layer="26">&gt;name</text>
 <pad name="4" x="3.75" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
 <pad name="3" x="2.5" y="0" drill="0.6" diameter="0.9" shape="long" rot="R90"/>
 </package>
@@ -458,6 +458,23 @@ Source: 3M</description>
 <pad name="7" x="25" y="0" drill="1.8"/>
 <pad name="8" x="35" y="0" drill="1.8"/>
 </package>
+<package name="MOLEX_7880-0001">
+<description>&lt;b&gt;MOLEX 7880-0001&lt;/b&gt; mini SIM card holder</description>
+<wire x1="0" y1="0" x2="16.96" y2="0" width="0.127" layer="21"/>
+<wire x1="16.96" y1="0" x2="16.96" y2="13.85" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="13.85" width="0.127" layer="21"/>
+<wire x1="0" y1="13.85" x2="16.96" y2="13.85" width="0.127" layer="21"/>
+<smd name="SH@1" x="1.54" y="1.5" dx="1.2" dy="0.95" layer="1" rot="R90"/>
+<smd name="SH@4" x="1.54" y="12.35" dx="1.2" dy="0.95" layer="1" rot="R90"/>
+<smd name="SH@2" x="14.85" y="0.66" dx="1.4" dy="0.95" layer="1"/>
+<smd name="SH@3" x="14.85" y="13.18" dx="1.4" dy="0.95" layer="1"/>
+<smd name="VCC" x="1.77" y="4.35" dx="0.8" dy="0.9" layer="1"/>
+<smd name="RST" x="1.77" y="5.59" dx="0.8" dy="0.9" layer="1"/>
+<smd name="CLK" x="1.77" y="8.13" dx="0.8" dy="0.9" layer="1"/>
+<smd name="GND" x="16.71" y="4.35" dx="0.8" dy="0.9" layer="1"/>
+<smd name="VPROG" x="16.71" y="5.59" dx="0.8" dy="0.9" layer="1"/>
+<smd name="IO" x="16.71" y="8.13" dx="0.8" dy="0.9" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="KLBR4">
@@ -550,6 +567,24 @@ Source: 3M</description>
 <rectangle x1="0" y1="-0.254" x2="2.794" y2="0.254" layer="94"/>
 <pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="SIM">
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="CLK" x="10.16" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="IO" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="RST" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="VPROG" x="10.16" y="-2.54" visible="pad" length="short" rot="R180"/>
+<pin name="VCC" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-7.62" visible="pad" length="short" rot="R180"/>
+<text x="-5.08" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<pin name="SH@4" x="-10.16" y="-7.62" visible="pad" length="short"/>
+<pin name="SH@3" x="-10.16" y="-5.08" visible="pad" length="short"/>
+<pin name="SH@2" x="-10.16" y="-2.54" visible="pad" length="short"/>
+<pin name="SH@1" x="-10.16" y="0" visible="pad" length="short"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="KLBR4" prefix="X">
@@ -580,7 +615,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/KLBR4.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="SIMLOCK" prefix="X">
-<description>Amphenol SIMLOCK Card Reader</description>
+<description>SIM card holder with lock detection</description>
 <gates>
 <gate name="G$1" symbol="SIMLOCK_C707_10M006" x="0" y="-2.54"/>
 </gates>
@@ -611,8 +646,8 @@ Source: http://www.lumberg.com/Produkte/PDFs/KLBR4.pdf</description>
 <devices>
 <device name="HORIZONTAL" package="0530480210">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -638,10 +673,10 @@ Source: http://www.lumberg.com/Produkte/PDFs/KLBR4.pdf</description>
 <devices>
 <device name="HORIZONTAL" package="0530480401">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="1" pad="4"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="3" pad="2"/>
+<connect gate="G$1" pin="4" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -669,12 +704,12 @@ Source: http://www.lumberg.com/Produkte/PDFs/KLBR4.pdf</description>
 <devices>
 <device name="HORIZONTAL" package="0530480610">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="1" pad="6"/>
+<connect gate="G$1" pin="2" pad="5"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="4" pad="3"/>
+<connect gate="G$1" pin="5" pad="2"/>
+<connect gate="G$1" pin="6" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -906,6 +941,31 @@ Source: 3M</description>
 <connect gate="G$6" pin="KL" pad="6"/>
 <connect gate="G$7" pin="KL" pad="7"/>
 <connect gate="G$8" pin="KL" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIM">
+<description>SIM card holders without lock detection</description>
+<gates>
+<gate name="G$1" symbol="SIM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_MOLEX_7880-0001" package="MOLEX_7880-0001">
+<connects>
+<connect gate="G$1" pin="CLK" pad="CLK"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IO" pad="IO"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="SH@1" pad="SH@1"/>
+<connect gate="G$1" pin="SH@2" pad="SH@2"/>
+<connect gate="G$1" pin="SH@3" pad="SH@3"/>
+<connect gate="G$1" pin="SH@4" pad="SH@4"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VPROG" pad="VPROG"/>
 </connects>
 <technologies>
 <technology name=""/>
