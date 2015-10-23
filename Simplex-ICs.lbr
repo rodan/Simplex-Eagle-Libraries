@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -685,6 +685,25 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <hole x="-25.781" y="10.4902" drill="3.2"/>
 <hole x="-0.2286" y="10.4902" drill="3.2"/>
 </package>
+<package name="HONEYWELL_8_SMT">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<smd name="P$1" x="-3.81" y="-5.716" dx="2.03" dy="1.143" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.27" y="-5.716" dx="2.03" dy="1.143" layer="1" rot="R90"/>
+<smd name="P$3" x="1.27" y="-5.716" dx="2.03" dy="1.143" layer="1" rot="R90"/>
+<smd name="P$4" x="3.81" y="-5.716" dx="2.03" dy="1.143" layer="1" rot="R90"/>
+<smd name="P$5" x="3.81" y="5.716" dx="2.03" dy="1.143" layer="1" rot="R90"/>
+<smd name="P$6" x="1.27" y="5.716" dx="2.03" dy="1.143" layer="1" rot="R90"/>
+<smd name="P$7" x="-1.27" y="5.716" dx="2.03" dy="1.143" layer="1" rot="R90"/>
+<smd name="P$8" x="-3.81" y="5.716" dx="2.03" dy="1.143" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DS3231">
@@ -1064,6 +1083,17 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <wire x1="0" y1="-10.16" x2="0" y2="-6.35" width="0.254" layer="94"/>
 <wire x1="0" y1="6.35" x2="0" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-8.89" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="HSCMRNN">
+<description>Honeywell HSCMRNN</description>
+<pin name="VCC" x="-7.62" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-7.62" y="-2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="SDA" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="SCL" x="-7.62" y="0" visible="pin" length="short"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1636,6 +1666,25 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <connect gate="G$2" pin="22" pad="22"/>
 <connect gate="G$2" pin="25" pad="25"/>
 <connect gate="G$2" pin="27" pad="27"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HONEYWELL_HSC">
+<description>Honeywell HSCMRNN sensors</description>
+<gates>
+<gate name="G$1" symbol="HSCMRNN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HONEYWELL_8_SMT">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="SCL" pad="P$4"/>
+<connect gate="G$1" pin="SDA" pad="P$3"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
