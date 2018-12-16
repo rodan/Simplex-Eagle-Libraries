@@ -52,6 +52,7 @@ Simplex-ICs
     - linear regulators in a D2PAK package
     - Cypress FM24Vxx serial F-RAM
     - LM2674
+    - MAX3421 USB peripheral/host controller
 
 Simplex-Jumpers
     - 4 way solder jumper
@@ -64,6 +65,6 @@ Simplex-rlc
 Simplex-Switches
     - 6x3.5mm tactile SPST-NO switch
 
-author: Petre Rodan <petre.rodan@simplex.ro>
+author: Petre Rodan <2b4eda@subdimension.ro>
 url:    https://github.com/rodan/Simplex-Eagle-Libraries
 
