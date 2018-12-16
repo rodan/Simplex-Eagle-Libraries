@@ -1787,7 +1787,6 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 </device>
 </devices>
 </deviceset>
-</devicesets>
 <deviceset name="MAX3421E">
 <description>&lt;b&gt;MAX3421E&lt;/b&gt; USB Periperal/Host Controller</description>
 <gates>
