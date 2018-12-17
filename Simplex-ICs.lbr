@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -650,7 +650,6 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <smd name="32" x="1.41" y="1.41" dx="1.475" dy="0.3" layer="1" rot="R90"/>
 <text x="8.89" y="3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="8.89" y="2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="20.735" y1="0.415" x2="20.735" y2="-8.035" width="0.05" layer="51"/>
 <wire x1="0.66" y1="0.66" x2="5.66" y2="0.66" width="0.1" layer="51"/>
 <wire x1="5.66" y1="0.66" x2="5.66" y2="-4.16" width="0.1" layer="51"/>
 <wire x1="5.66" y1="-4.16" x2="0.66" y2="-4.16" width="0.1" layer="51"/>
@@ -1045,7 +1044,7 @@ PW R-PDSO-G20</description>
 <text x="16.51" y="15.24" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="GPIN7" x="-20.32" y="7.62" length="middle" direction="in"/>
 <pin name="VL" x="-20.32" y="5.08" length="middle" direction="in"/>
-<pin name="GND" x="-20.32" y="2.54" length="middle" direction="pwr"/>
+<pin name="GND" x="-20.32" y="2.54" length="middle"/>
 <pin name="GPOUT0" x="-20.32" y="0" length="middle" direction="out"/>
 <pin name="GPOUT1" x="-20.32" y="-2.54" length="middle" direction="out"/>
 <pin name="GPOUT2" x="-20.32" y="-5.08" length="middle" direction="out"/>
@@ -1060,11 +1059,11 @@ PW R-PDSO-G20</description>
 <pin name="MISO" x="-20.32" y="-30.48" length="middle" direction="out"/>
 <pin name="MOSI" x="-20.32" y="-33.02" length="middle"/>
 <pin name="XI" x="20.32" y="-15.24" length="middle" direction="in" rot="R180"/>
-<pin name="VCC" x="20.32" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCC" x="20.32" y="-17.78" length="middle" rot="R180"/>
 <pin name="VBCOMP" x="20.32" y="-20.32" length="middle" direction="in" rot="R180"/>
 <pin name="D+" x="20.32" y="-22.86" length="middle" rot="R180"/>
 <pin name="D-" x="20.32" y="-25.4" length="middle" rot="R180"/>
-<pin name="GND_1" x="20.32" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND_1" x="20.32" y="-27.94" length="middle" rot="R180"/>
 <pin name="INT" x="20.32" y="-30.48" length="middle" direction="out" rot="R180"/>
 <pin name="GPX" x="20.32" y="-33.02" length="middle" direction="out" rot="R180"/>
 <pin name="GPIN6" x="20.32" y="7.62" length="middle" direction="in" rot="R180"/>
@@ -1262,8 +1261,8 @@ dual linear taper digital potentiometer</description>
 <wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<pin name="GND" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
-<pin name="VDD" x="-12.7" y="10.16" length="middle" direction="pwr"/>
+<pin name="GND" x="-12.7" y="-10.16" length="middle"/>
+<pin name="VDD" x="-12.7" y="10.16" length="middle"/>
 <pin name="DIN" x="-12.7" y="2.54" length="middle" direction="in"/>
 <pin name="SCLK" x="-12.7" y="0" length="middle" direction="in" function="clk"/>
 <pin name="!CS" x="-12.7" y="-2.54" length="middle" direction="in" function="dot"/>
@@ -1280,6 +1279,8 @@ dual linear taper digital potentiometer</description>
 <text x="7.62" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TXB0108">
+<description>&lt;b&gt;TI TXB0108&lt;/b&gt;
+8 bit bidirectional voltage level translator</description>
 <pin name="A1" x="-15.24" y="12.7" length="middle"/>
 <pin name="VCCA" x="-15.24" y="10.16" length="middle"/>
 <pin name="A2" x="-15.24" y="7.62" length="middle"/>
@@ -1304,12 +1305,12 @@ dual linear taper digital potentiometer</description>
 <wire x1="-10.16" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<text x="0" y="20.32" size="1.27" layer="95">&gt;NAME</text>
-<text x="0" y="17.78" size="1.27" layer="96">&gt;VALUE</text>
+<text x="0" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="MAX4789">
 <pin name="IN" x="-15.24" y="2.54" length="middle" direction="pwr"/>
-<pin name="GND" x="0" y="-10.16" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
 <pin name="ON" x="-15.24" y="-2.54" length="middle" direction="in"/>
 <pin name="OUT" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
 <pin name="!FLAG" x="15.24" y="-2.54" length="middle" direction="out" function="dot" rot="R180"/>
@@ -1317,6 +1318,8 @@ dual linear taper digital potentiometer</description>
 <wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="7.62" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="7.62" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
