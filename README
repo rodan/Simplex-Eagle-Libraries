@@ -34,6 +34,7 @@ Simplex-DiscreteSemi
 Simplex-FreqCtrl
     - 5x3.2mm crystal
     - 3.2x1.5mm crystal
+    - 11.4X4.35mm metal can type crystal
 
 Simplex-Fuses
     - 0805 resettable fuse
@@ -63,6 +64,7 @@ Simplex-ICs
 
 Simplex-Jumpers
     - 4 way solder jumper
+    - 3 way solder jumper
 
 Simplex-rlc
     - 0805 inductor
