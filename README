@@ -58,6 +58,7 @@ Simplex-ICs
     - LM4780 Overture Audio Power Amplifier Series Stereo 60W
     - MAX3421 USB peripheral/host controller
     - MAX5413 MAX5414 MAX5415 dual linear taper digital potentiometer
+    - MCP42010 MCP42050 MCP42100 dual linear digital potentiometer
     - MAX4789 - MAX4794 current limit switch
     - TXB0108 8bit bidirectional voltage level translator
     - ADG3304 4 channel bi-directional voltage level translator
