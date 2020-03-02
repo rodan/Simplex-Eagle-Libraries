@@ -6,6 +6,7 @@ contains footprints for the following devices:
 
 Simplex-Battery
     - Renata HU2032-LF Li 2032 battery holder
+    - Keystone 1042 MR18650 battery holder
 
 Simplex-Connectors
     - Lumberg KLBR4
@@ -16,20 +17,24 @@ Simplex-Connectors
     - Molex 0530470610
     - Molex 0530480610
     - Molex 78800001 mini SIM
+    - Molex 5009010801 uSD card holder
     - Amphenol SIMLOCK "C707 10M006 000 2"
     - 2x4pin 3M IDC connector
     - 2x6pin 3M IDC connector
+    - 2x8pin 3M IDC connector
     - DG58C-B-02P-13 2 pole Degson Electronics screw terminal
     - DG58C-B-03P-13 3 pole Degson Electronics screw terminal
     - DG58C-B-04P-13 4 pole Degson Electronics screw terminal
     - DG58C-B-08P-13 8 pole Degson Electronics screw terminal
     - JST USB A THT 90degree
     - ADAM TECH D-SUB DA-15
+    - chinesium 4pin barrel jack
 
 Simplex-DiscreteSemi
     - MOSFET-P channel - sot23-3, sot23-3 power, d-pak
     - MOSFET-N channel - sot23-3, sot23-3 power, d-pak
     - SMF05C
+    - power PNP/NPN vertically mounted transistors
 
 Simplex-FreqCtrl
     - 5x3.2mm crystal
@@ -49,6 +54,7 @@ Simplex-ICs
     - Texas Instruments BQ24072
     - Texas Instruments ADS1110
     - Texas Instruments PGA2311
+    - Texas Instruments MSP430FR5994
     - GlobalTop FGPMMOPA6H
     - sim900
     - STK461, STK463, STK465
@@ -71,6 +77,7 @@ Simplex-rlc
     - 0805 inductor
     - yageo YC164 series resistor array
     - TO220 vertical and horizontal resistor
+    - Nichicon snap-in capacitors
 
 Simplex-Switches
     - 6x3.5mm tactile SPST-NO switch
