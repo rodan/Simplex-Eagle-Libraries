@@ -82,6 +82,13 @@ Simplex-rlc
 Simplex-Switches
     - 6x3.5mm tactile SPST-NO switch
 
+Simplex-Heatsinks
+    - Fischer Elektronik SK456-60-3XM3L
+
+Simplex-Enclosures
+    - G203C multipurpose enclosure
+    - Rusia Neagra power assy constraints
+
 author: Petre Rodan <2b4eda@subdimension.ro>
 url:    https://github.com/rodan/Simplex-Eagle-Libraries
 
